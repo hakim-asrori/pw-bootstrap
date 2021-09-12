@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Portofolio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+  <style>
+    ._info ._sosial-link a {
+      font-size: 18px;
+      display: inline-block;
+      background: #fff;
+      color: #1dc8cd;
+      line-height: 1;
+      padding: 8px 0;
+      margin-right: 4px;
+      border-radius: 50%;
+      text-align: center;
+      width: 36px;
+      height: 36px;
+      transition: 0.3s;
+      border: 1px solid #1dc8cd;
+    }
+
+    ._info ._sosial-link a:hover {
+      color: #fff;
+      background: #1dc8cd;
+    }
+
+    ._info-loc i {
+      font-size: 32px;
+      float: left;
+      line-height: 1;
+    }
+
+    ._info-loc p, ._info-loc p {
+      padding: 0 0 10px 42px;
+      line-height: 28px;
+      font-size: 14px;
+    }
+
+    ._info-loc p a {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand h1" href="./">Hakim Asrori</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+    <h2>Contact Me</h2>
+
+    <div class="row mt-3">
+      <div class="col-md-3 col-lg-4 col-sm-4">
+        <h4 class="text-primary">Hakim Asrori</h4>
+        <div class="_sosial-link mb-3">
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3 col-sm-4">
+        <div class="_info-loc">
+          <div>
+            <i class="fa fa-map-marker-alt text-primary"></i>
+            <p>
+              Jalan Raya Pantura Losarang, Desa Santing, Kec. Losarang, Kab. Indramayu
+              <br>
+              Kode Pos 45253
+            </p>
+          </div>
+          <div>
+            <i class="far fa-envelope text-primary"></i>
+            <p><a href="mailto: saneglos005@gmail.com">saneglos005@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-5 col-sm-4">
+        <div class="row mb-3">
+          <div class="form-group col-lg-6">
+            <input type="text" class="form-control" placeholder="Your name">
+          </div>
+          <div class="form-group col-lg-6">
+            <input type="email" class="form-control" placeholder="Your email">
+          </div>
+        </div>
+        <div class="form-group mb-3">
+          <input type="text" class="form-control" placeholder="Subject">
+        </div>
+        <div class="form-group mb-3">
+          <textarea rows="5" class="form-control" placeholder="Message"></textarea>
+        </div>
+        <div class="text-center mb-3">
+          <button class="btn btn-primary mb-5" onclick="location='./'">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
